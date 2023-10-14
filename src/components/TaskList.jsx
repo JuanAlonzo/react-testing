@@ -7,7 +7,9 @@ function TaskList() {
 
   if (tasks.length === 0) {
     return (
-      <p className="text-white text-4xl font-bold text-center">No tasks</p>
+      <h1 className="text-white text-4xl font-bold text-center py-10">
+        No tasks
+      </h1>
     );
   }
 
